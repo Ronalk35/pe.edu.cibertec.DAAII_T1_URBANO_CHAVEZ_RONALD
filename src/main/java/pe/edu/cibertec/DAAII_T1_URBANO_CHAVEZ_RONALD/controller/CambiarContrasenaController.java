@@ -13,7 +13,7 @@ import pe.edu.cibertec.DAAII_T1_URBANO_CHAVEZ_RONALD.model.bd.CambiarContrasenaR
 
 @RestController
 public class CambiarContrasenaController {
-
+//Se agrego este controlador para cambiar la contrasena//
     @Autowired
     private UsuarioService usuarioService;
 

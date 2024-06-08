@@ -76,7 +76,7 @@ public class UsuarioService implements IUsuarioService {
     public Usuario buscarUsuarioXIdUsuario(Integer idusuario) {
         return usuarioRepository.findById(idusuario).orElse(null);
     }
-
+//metodo para validar la contrasena con esto que se pide La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula, un número y un carácter especial //
     @Override
     public void cambiarContrasena(String username, String nuevaContrasena) {
         // Verificar si la nueva contraseña cumple con los requisitos

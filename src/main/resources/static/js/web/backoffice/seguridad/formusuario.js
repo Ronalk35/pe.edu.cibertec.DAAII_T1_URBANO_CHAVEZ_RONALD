@@ -132,7 +132,7 @@ $(document).ready(function() {
             return;
         }
 
-        // Validar la contraseña
+        // Validar la contraseña con esta validacion La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula, un número y un carácter especial
         var passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
         if (!passwordPattern.test(nuevaContrasena)) {
             // Mostrar un mensaje de error si la contraseña no cumple con los requisitos
